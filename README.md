@@ -1,8 +1,8 @@
-# Clinico-Transcriptomic Discovery of Prognostic Biomarkers and Functional Hallmarks in TCGA Breast Cancer Using Python
+## Clinico-Transcriptomic Discovery of Prognostic Biomarkers and Functional Hallmarks in TCGA Breast Cancer Using Python
 
-**Dataset:** TCGA-BRCA (The Cancer Genome Atlas Breast Invasive Carcinoma)
-**Platform:** Illumina HiSeq High-Throughput RNA-Sequencing (RNA-Seq)
-**Cohort analyzed:** 1,019 Clinically Characterized Patient Sample Matrices
+* **Dataset:** TCGA-BRCA (The Cancer Genome Atlas Breast Invasive Carcinoma)
+* **Platform:** Illumina HiSeq High-Throughput RNA-Sequencing (RNA-Seq)
+* **Cohort analyzed:** 1,019 Clinically Characterized Patient Sample Matrices
 
 ## Abstract
 
@@ -24,23 +24,16 @@ This study demonstrates that integrating transcriptomic profiling, functional pa
 
 ---
 ## Key Analytical Outputs
-
-![Figure 1: Differential Expression Volcano Plot](results/figures/dgea_volcano.png)
-![Figure 2: Pathway Enrichment Analysis](results/figures/gsea_enrichment_barplot.png)
-![Figure 3A: PLK1 Kaplan-Meier Curve](results/figures/survival_plots/PLK1_km_curve.png)
-![Figure 3B: MAD2L1 Kaplan-Meier Curve](results/figures/survival_plots/MAD2L1_km_curve.png)
-![Figure 4: Confusion Matrix](figures/ml_plots/rf_survival_validation.png)
-
 <table>
   <tr>
     <td><img src="results/figures/dgea_volcano.png" width="300"/></td>
     <td><img src="results/figures/gsea_enrichment_barplot.png" width="300"/></td>
-    <td><img src="results/figures/survival_plots/PLK1_km_curve.png" width="300"/></td>
+    <td><img src="results/figures/ml_plots/rf_survival_validation.png" width="300"/></td>
   </tr>
   <tr>
     <td><img src="results/figures/survival_plots/MAD2L1_km_curve.png" width="300"/></td>
-    <td><img src="results/figures/ml_plots/rf_survival_validation.png" width="300"/></td>
     <td></td>
+    <td><img src="results/figures/survival_plots/PLK1_km_curve.png" width="300"/></td>
   </tr>
 </table>
 ---
