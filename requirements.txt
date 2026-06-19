@@ -1,0 +1,17 @@
+# Data Wrangling and Array Math
+numpy==2.2.6
+pandas==2.3.3
+
+# Genomics & Bioinformatics Pipelines
+pyDESeq2==0.4.10
+gseapy==1.2.1
+
+# Clinical Survival Analysis
+lifelines==0.30.0
+
+# Machine Learning & Ensemble Modeling
+scikit-learn==1.6.1
+
+# Data Visualization & Plotting
+matplotlib==3.10.9
+seaborn==0.13.2
